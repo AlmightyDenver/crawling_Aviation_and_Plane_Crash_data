@@ -17,7 +17,8 @@ from bs4 import BeautifulSoup
 from html_table_parser import parser_functions as parser
 import pandas as pd
 
-PATH = '/Users/denveralmighty/Downloads/airplane'
+# CHANGE ME
+PATH = '/my/data/path'
 
 def crawling(url):
     response = requests.get(url, headers={'User-agent':'Mozila/5.0'}) 
