@@ -20,11 +20,9 @@
 
 1. **필수 라이브러리 설치**:
    `pip install requests beautifulsoup4`
-사고 목록 수집 실행:
-
+2. **사고 목록 수집 실행**:
 `python crawler_asn_data.py`
-사고 상세 정보 수집 실행:
-
+3. **사고 상세 정보 수집 실행** :
 `python crawler_asn_data_detail.py`
 
 💡 수집된 데이터는 CSV 또는 JSON 형식으로 저장되며, 데이터 분석 및 시각화에 활용할 수 있습니다.
